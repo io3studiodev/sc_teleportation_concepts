@@ -1,6 +1,6 @@
 # "Teleportation" Ideas Megathread
 
-This thread is a collection of ideas/concepts from the last 2 days to help CIG make the best game possible.
+This thread is a collection of ideas/concepts to help CIG make the best game possible.
 
 Thorston said "it's not signed off yet", and Jared reiterated "it's not a signed off feature... we have to explore those things, even if we never do it...", meaning they've still not finalized the concept/design behind teleportation/fast travel or even if it will be done.
 
