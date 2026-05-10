@@ -12,7 +12,7 @@ Keep in mind, Thorston said "fast travel to party leader, or party hangar". So o
 
 If they're going to implement it, let's at least try to help them out with the best ideas we can come up with. I've only got so much time in the day so this will only be updated once or twice per day.
 
-📄 **[Full detailed analysis with scoring breakdowns, anti-exploitation mechanics, and edge case discussion →](LINK_TO_GITHUB_FULL_DOC)**
+📄 **[Full detailed analysis with scoring breakdowns, anti-exploitation mechanics, and edge case discussion →](https://github.com/io3studiodev/sc_teleportation_concepts/blob/main/fast_travel_megathread.md)**
 
 ---
 
