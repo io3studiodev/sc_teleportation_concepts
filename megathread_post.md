@@ -1,6 +1,6 @@
 # "Teleportation" Ideas Megathread
 
-This thread is a collection of ideas/concepts to help CIG make the best game possible. Gathered directly from spectrum community posts, curated by me, organized by AI.
+This thread is a collection of ideas/concepts to help CIG make the best game possible. Gathered directly from spectrum community posts, curated by me, organized and synthesized by AI.
 
 Thorston said "it's not signed off yet", and Jared reiterated "it's not a signed off feature... we have to explore those things, even if we never do it...", meaning they've still not finalized the concept/design behind teleportation/fast travel or even if it will be done.
 This means we have a small window of time to come up with the best ideas for them so this can be done the right way, or not at all. The challenge is solving it without gutting the thing that makes Star Citizen Star Citizen.
@@ -8,8 +8,6 @@ This means we have a small window of time to come up with the best ideas for the
 This thread is mainly for CIG, but please post your best ideas below or write out an entire thread and post the link here, or argue against it. I'll just have AI summarize your idea into bullet points with a link to the original.
 
 Keep in mind, Thorston said "fast travel to party leader, or party hangar". So our ideas have to solve several scenarios like "fast travelling/teleporting/agent smithing" to someone's ship, to party leader, or leaders hangar. And finally to instanced content entrances like the municipal works or Siege of Orison.
-
-If they're going to implement it, let's at least try to help them out with the best ideas we can come up with. I've only got so much time in the day so this will only be updated once or twice per day.
 
 📄 **[Full detailed analysis with scoring breakdowns, anti-exploitation mechanics, and edge case discussion →](https://github.com/io3studiodev/sc_teleportation_concepts/blob/main/fast_travel_megathread.md)**
 
