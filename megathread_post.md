@@ -141,4 +141,4 @@ The strongest possible system might be a **layered approach**: Commercial Flight
 
 *This is a living thread. More ideas will be added as they come in. All scored against the same rubric for fair comparison. If you have an idea, post it and link it here.*
 
-*Full detailed analysis: **[Read the full document →](LINK_TO_GITHUB_FULL_DOC)***
+*Full detailed analysis: **[Read the full document →](https://github.com/io3studiodev/sc_teleportation_concepts/blob/main/fast_travel_megathread.md)***
