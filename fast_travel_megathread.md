@@ -598,21 +598,147 @@ The economic arguments are particularly important: even ideas that score well on
 
 ---
 
+## PROPOSED HYBRID: Imprint Shell Network (Layered Fast Travel System)
+
+**Composite Score: 33/35**
+
+**Origin:** Synthesized from analysis of all 11 community ideas, 7 counterarguments, community data, and the design constraints of Star Citizen's physicalized, persistent universe. This proposal takes the strongest scoring elements from the top ideas and combines them into a single coherent system with two complementary layers.
+
+### The Core Insight
+
+No single idea scored perfectly across all seven axes. But the weaknesses of each idea are covered by the strengths of another. The top ideas naturally sort into two complementary categories: **long-haul relocation** (getting to the same system/station) and **last-mile grouping** (getting onto a friend's ship or into instanced content). Combining them creates full coverage.
+
+### Layer 1: Long Haul — Physicalized Commercial Flights + Bed Log Transit
+
+This layer handles cross-system relocation. It uses two ideas that already scored 28/35 each, both with perfect or near-perfect physicalization and lore scores.
+
+**Real-Time Transit:** Buy a ticket at a spaceport kiosk, board a Genesis Starliner (or equivalent commercial ship), ride it to another major spaceport. The ship physically exists in the world. Scheduled departures every 7-10 minutes. Accelerated QT speeds. Lawless systems use rep-gated gang shuttles. No loading screens.
+
+**Pre-Planned Transit:** Bed-log at a transit hub before your session. Next time you log in: "You slept through your commercial flight." Choose your destination. Your character rode a transport while you were offline.
+
+These two modes cover both the "I need to relocate right now" and "our org event is tomorrow night" scenarios. The infrastructure already exists in-game — commercial flight terminals are built into every major landing zone.
+
+### Layer 2: Last Mile — Imprint Shells (The New Mechanic)
+
+This is the unified system that handles ship crewing, open world grouping, and instanced content with a single mechanic. It synthesizes the best elements of Agent Smithing (consciousness transfer into a pre-existing body), CIV (physical hardware with no NPC dependency), Transfer Transit (ticking clock), and Crew Quarters Registry (leverages crew quarter infrastructure).
+
+**What is an Imprint Shell?**
+
+An Imprint Shell is a purpose-grown organic clone body in stasis. It is a **physical, purchasable, consumable item** — like a torpedo or medgel cartridge. Shells are grown at medical facilities and sold at ports. They must be physically transported to a ship and placed in a crew quarter bed. When not occupied by a player, a Shell is an inert body sleeping in a bed — fully physicalized, fully persistent. It obeys the coke-can rule: if you leave a Shell in a bed, it's still there a week later.
+
+**How It Works:**
+
+1. **Setup (Ship Owner):** The ship owner purchases Imprint Shells at a port. They carry them aboard (physical cargo) and place them in crew quarter beds. The ship must also have a **Relay Beacon** installed — a ship component that enables consciousness transmission to the Shells aboard. Each Relay Beacon supports a limited number of Shells based on its tier.
+
+2. **Transfer (Crew Member):** A player at any port or station walks to an **Imprint Terminal** (a facility in the medical/transit area). They select a party member's ship from the terminal UI. Their consciousness is transmitted via FTL communication (Dr. Betel's breakthrough) to an available Shell aboard that ship. Their **real body enters stasis at the terminal** — physical, persistent, vulnerable. It can be found, observed, even looted if the terminal is in an unsecured area.
+
+3. **Arrival:** The player wakes up in the Shell's body, lying in the crew quarter bed. They're wearing a **medical gown** — nothing else. No weapons, no armor, no personal inventory. Everything they own stays with their real body at the terminal. They gear up from the ship's armory, weapon racks, and suit lockers — whatever the ship owner has pre-stocked.
+
+4. **Session:** The player operates normally in the Shell — fighting, crewing turrets, completing missions. The Shell is a full physical body. It can be injured, healed with medbeds, equipped with gear from the ship.
+
+5. **Departure:** When the player is done, they return to a bed and initiate transfer-out. Their consciousness snaps back to their real body at the Imprint Terminal. The Shell **dies and leaves a corpse** in the bed. Whatever gear the Shell was wearing stays with the corpse. The ship owner recovers the gear and disposes of the body. **Nothing transfers back with the player's consciousness — no gear, no items, no loot.** This is absolute: your consciousness moves, nothing else, in either direction. Item duplication is impossible because no items ever cross the transfer boundary.
+
+6. **Timer:** Each Shell has a **biological degradation timer** (4-8 hours, tunable). When the timer expires, the Shell begins to fail and the player's consciousness snaps back to their real body. This prevents indefinite occupation and creates a natural session window.
+
+7. **Shell Death:** If the Shell is killed in combat, the consciousness snaps back immediately. The Shell corpse persists with its gear. The player wakes up at their real body. Potential tuning option: partial memory loss on Shell death (borrowed from Transfer Transit) to discourage reckless play.
+
+**How It Handles Each Use Case:**
+
+- **Ship Crewing:** Owner buys Shells, places them in crew beds, installs Relay Beacon. Friends transfer in from any port, wake up in crew quarters, gear up, crew the ship. This is the primary use case and it works seamlessly.
+
+- **Open World Grouping:** Same mechanic. The party leader's ship is the anchor point. Transfer into a Shell aboard, then take a shuttle or EVA to wherever the group activity is. The ship needs to be within the Relay Beacon's operational range of the activity.
+
+- **Instanced Content:** Facilities near instance entrances (e.g., Municipal Works, Siege of Orison staging areas) have **Contractor Shells** available for hire. The party leader pays to activate them at the facility. Players transfer into Contractor Shells at the mission entrance. Contractor Shells operate under restricted rules: they **cannot pick up loot, cannot carry items out, and despawn when the mission completes.** The party leader extracts loot via existing freight elevator systems. This completely prevents duplication and loot exploitation.
+
+### Anti-Exploitation Design
+
+Every anti-abuse mechanic maps to a physicalized, in-universe cost:
+
+- **Shells are expensive consumables.** Each one costs roughly what a torpedo costs. A ship with 8 crew beds needs 8 Shells — real money, real logistics. You have to fly to a port, buy them, haul them to your ship, and place them. They're one-use: once the player leaves, the Shell dies.
+- **Relay Beacon limits.** The Beacon is a ship component with a tier-based capacity. Small ships might support 2-3 Shells, capital ships might support 20+. The Beacon also has a **maximum operational range** — you can't transfer into a Shell that's too far from a relay network or Imprint Terminal.
+- **No gear transfers.** Absolute rule. Your real body keeps everything it had. The Shell starts with a medical gown. Whatever the Shell picks up stays with the Shell corpse. Consciousness moves, matter doesn't. Item duplication is structurally impossible.
+- **Real body vulnerability.** Your real body is in stasis at an Imprint Terminal. It's physical and persistent. In secure UEE space, this is low-risk. In a lawless station, someone could theoretically find and loot your sleeping body. This creates a natural risk/reward calculation — transferring from a safe port is fine, transferring from a shady Pyro station carries risk.
+- **Degradation timer.** 4-8 hours before the Shell fails. You can't permanently relocate via Shell — it's always temporary.
+- **Combat lockout.** Cannot transfer into a Shell aboard a ship that is in active combat (shields taking fire, weapons deployed, hostile proximity alert). Prevents instant combat reinforcement drops.
+- **Cooldown.** After transferring out of a Shell, there's a cooldown (30-60 minutes) before you can transfer into another one. Prevents rapid Shell-hopping across the universe.
+- **Contractor Shell restrictions.** For instanced content, Contractor Shells cannot interact with loot, cannot carry items, and despawn on mission completion. Zero extraction exploit potential.
+
+### Lore Justification
+
+Every element of this system is grounded in existing Star Citizen lore:
+
+- **FTL consciousness transmission:** Dr. Betel's FTL communication breakthrough (December 2025 lore) established that information can be transmitted faster than light. Consciousness is information. This is the transmission mechanism.
+- **Clone bodies:** DNA imprinting, cloning, and medbed revival are all established SC technologies. Imprint Shells are a refinement — purpose-grown clone bodies optimized for temporary consciousness hosting rather than permanent revival. Think of them as "disposable clones" compared to the permanent clone you respawn into.
+- **Military application:** The Vanduul war provides immediate lore justification. Rapid force deployment without moving troops across systems is an obvious military need. Imperator Addison's administration could have fast-tracked the technology for the war effort, with civilian applications following.
+- **Shell degradation:** Clone bodies grown quickly for temporary use aren't as stable as a full clone grown for permanent revival. They degrade. This is biologically intuitive and provides the in-universe explanation for the timer.
+
+### Feasibility & Upgrade Path
+
+**What needs to be built:**
+- Imprint Shell items (physical cargo/consumable — item system exists)
+- Relay Beacon ship component (component system exists)
+- Imprint Terminal facility object (terminal/kiosk system exists)
+- Consciousness transfer UI (party system + destination picker)
+- Degradation timer (timer mechanics exist)
+- Contractor Shell variant for instanced content
+- Shell corpse cleanup system
+
+**What already exists:**
+- Beds and crew quarters with log-in/log-out functionality
+- Suit lockers and armor racks
+- Medical/cloning lore and DNA imprinting
+- FTL communication lore
+- Ship component architecture
+- Consumable items (medgel, torpedoes)
+- Party/group systems
+
+**No NPC crew AI is required.** Shells are inert objects. They don't walk around, don't perform tasks, don't need pathfinding or behavior trees. They sleep in beds until a player takes over.
+
+**Upgrade path to Agent Smithing:** When CIG eventually implements NPC crew, the Imprint Shell system evolves naturally. Instead of buying a blank organic clone and placing it in a bed, the ship has actual NPC crew members who walk around, perform tasks, and fill functional roles. A player transferring in takes over that NPC's body — full Agent Smithing. The Shell system becomes the stepping stone: ship it now with inert clone bodies, upgrade later to living NPCs. The underlying mechanic (consciousness transfer via Relay Beacon) stays the same. The only thing that changes is whether the body you're taking over was inert or active.
+
+### Scoring Breakdown
+
+| Axis | Score | Reasoning |
+|------|-------|-----------|
+| Physicalization | 5/5 | Shells are physical objects in beds. Your real body is physical at the terminal. Shell corpses persist with gear. Nothing vanishes, nothing phases, nothing pops in or out of existence. At every moment, every body and every item exists somewhere physical in the universe. |
+| Persistence | 5/5 | Shells persist in beds when unoccupied. Real bodies persist at terminals. Shell corpses persist when vacated. Gear on corpses persists for the owner to recover. The coke-can rule is fully satisfied — drop a Shell in a bed on a random moon, come back a week later, it's still there. |
+| Lore Compatibility | 5/5 | Every component is grounded in existing lore: FTL comms for transmission, cloning tech for the bodies, military need for the application. No new physics required — consciousness is information, and information can already travel faster than light in this universe. |
+| Effectiveness | 5/5 | Near-instant grouping for ship crewing: owner pre-places Shells, crew transfers in from any port, wakes up, gears up, ready to go. Combined with Layer 1 (Commercial Flights / Bed Log Transit) for cross-system relocation, this covers every grouping scenario from "casual Tuesday night session" to "Saturday org fleet op." |
+| Exploitability | 4/5 | Layered anti-abuse: expensive consumables, one-use, degradation timer, no gear transfers (structurally prevents item duplication), real body vulnerability, combat lockout, cooldown, Contractor Shell restrictions for instances. Minor deduction for edge cases CIG would tune during implementation (exact timer length, cooldown duration, Beacon range values). |
+| Feasibility | 4/5 | No NPC AI required. Core mechanics (beds, components, consumables, terminals, party systems) all exist. Needs new items, a new component, transfer UI, and timer logic — real engineering work but nothing that depends on systems CIG has delayed. Clear upgrade path to Agent Smithing when NPC crew arrives. |
+| Versatility | 5/5 | One mechanic — consciousness transfer into a pre-placed physical vessel — covers ship crewing, open world grouping, and instanced content. Layer 1 covers cross-system relocation. Together, every use case Thorston described ("fast travel to party leader, or party hangar") is addressed by a single unified system. |
+
+### Why This Scores Higher Than Any Individual Idea
+
+The top individual ideas each had one or two weak spots:
+
+- **C.I.V. (31/35):** Cybernetic bodies clash with SC's organic aesthetic. Range limitation reduces effectiveness.
+- **Agent Smithing (30/35):** Depends on NPC crew tech that's delayed past 1.0.
+- **Commercial Flights (28/35):** Relocation only, not grouping. Low versatility.
+
+The hybrid solves each of these:
+- **Organic clone bodies** instead of cybernetic drones — fits SC's flesh-and-blood aesthetic.
+- **No NPC dependency** — Shells are inert objects, shippable before 1.0, with a clean upgrade path to Agent Smithing.
+- **Two-layer design** — Commercial Flights handle the long haul, Shells handle the last mile. Full coverage.
+
+---
+
 ## Current Rankings
 
 | Rank | Idea | Score | Best At |
 |------|------|-------|---------|
-| 1 | C.I.V. / I.R.C. | 31/35 | Physicalization, persistence, anti-exploitation |
-| 2 | Agent Smithing | 30/35 | Versatility, effectiveness, leverages existing systems |
-| 3 | Commercial Flights (Starliner) | 28/35 | Lore compatibility, physicalization, unexploitable |
-| 3 | Bed Log Transit | 28/35 | Unexploitable, trivial to implement, lore-perfect |
-| 5 | Transfer Transit | 27/35 | Built-in time limit, consequence mechanics |
-| 5 | Crew Quarters Registry | 27/35 | Highest feasibility, gives crew quarters purpose |
-| 7 | Rare Alien Structures | 25/35 | Physicalization purity, exploration content |
-| 7 | Formalized Medbed Clone-In | 25/35 | Zero new engineering, formalizes existing behavior |
-| 9 | Group Launch | 24/35 | Session-start grouping, unexploitable |
-| 10 | Paid NPC Transport (Fade-to-Black) | 23/35 | Lore-friendly concept, economically balanced |
-| 11 | Teleport to Docked Ship | 22/35 | Simplest implementation, strong problem statement |
+| ★ | **Imprint Shell Network (Hybrid)** | **33/35** | **Full coverage: physicalization, persistence, lore, versatility, anti-duplication** |
+| 2 | C.I.V. / I.R.C. | 31/35 | Physicalization, persistence, anti-exploitation |
+| 3 | Agent Smithing | 30/35 | Versatility, effectiveness, leverages existing systems |
+| 4 | Commercial Flights (Starliner) | 28/35 | Lore compatibility, physicalization, unexploitable |
+| 4 | Bed Log Transit | 28/35 | Unexploitable, trivial to implement, lore-perfect |
+| 6 | Transfer Transit | 27/35 | Built-in time limit, consequence mechanics |
+| 6 | Crew Quarters Registry | 27/35 | Highest feasibility, gives crew quarters purpose |
+| 8 | Rare Alien Structures | 25/35 | Physicalization purity, exploration content |
+| 8 | Formalized Medbed Clone-In | 25/35 | Zero new engineering, formalizes existing behavior |
+| 10 | Group Launch | 24/35 | Session-start grouping, unexploitable |
+| 11 | Paid NPC Transport (Fade-to-Black) | 23/35 | Lore-friendly concept, economically balanced |
+| 12 | Teleport to Docked Ship | 22/35 | Simplest implementation, strong problem statement |
 | — | Fix the Friction First | N/A | Data shows ~96% of time lost is bugs/friction, not travel |
 
 ---
