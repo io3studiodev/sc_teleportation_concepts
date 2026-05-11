@@ -412,7 +412,13 @@ Players pre-register to a specific bed on a specific ship by physically visiting
 
 ### Summary
 
-You go to a transit hub that has beds (airports and trains have sleeper cabins — this is natural). You bed-log out, with a minimum 30-minute lead time before your planned session. Next time you log in, you receive a message: "You slept through your commercial flight." You then choose your destination spaceport and spawn there. You're scheduling travel while offline — literally going to cook eggs while your character rides a transport.
+You go to a transit hub at any major spaceport. Interact with a terminal, select your destination from available commercial routes (major spaceports only). The terminal displays estimated travel time and ticket cost. You confirm, lie down in a transit hub bed, and log out. Your body is now physically aboard a commercial transport — asleep in a sleeper cabin.
+
+A server-side countdown begins from the moment you log out: departure time + travel duration = arrival time. This runs in real-world time whether you're online or offline. Travel duration is proportional to actual in-game distance, calculated at approximately 0.75x of manual QT travel time with a minimum floor of 30 minutes — fast enough that planning ahead is rewarded, slow enough that it's not instant teleportation.
+
+When you log back in: if the timer has completed, you spawn at your destination ("You slept through your commercial flight"). If the timer has NOT completed, you choose — stay committed and wait, or cancel and wake up back at the departure hub (ticket refunded minus a cancellation fee). You're never in limbo.
+
+Ideally, your sleeping body is actually aboard a real physicalized transport during the timer. If someone could board that Starliner mid-flight, they'd find you asleep in a cabin.
 
 ### How It Works Across Use Cases
 
@@ -612,11 +618,21 @@ No single idea scored perfectly across all seven axes. But the weaknesses of eac
 
 This layer handles cross-system relocation. It uses two ideas that already scored 28/35 each, both with perfect or near-perfect physicalization and lore scores.
 
-**Real-Time Transit:** Buy a ticket at a spaceport kiosk, board a Genesis Starliner (or equivalent commercial ship), ride it to another major spaceport. The ship physically exists in the world. Scheduled departures every 7-10 minutes. Accelerated QT speeds. Lawless systems use rep-gated gang shuttles. No loading screens.
+**Real-Time Transit:** Buy a ticket at a spaceport kiosk, board a Genesis Starliner (or equivalent commercial ship), ride it to another major spaceport. The ship physically exists in the world. Scheduled departures every 7-10 minutes. Accelerated QT speeds. Lawless systems use rep-gated gang shuttles. No loading screens. For when you're already in a session and need to relocate.
 
-**Pre-Planned Transit:** Bed-log at a transit hub before your session. Next time you log in: "You slept through your commercial flight." Choose your destination. Your character rode a transport while you were offline.
+**Pre-Planned Transit (Bed Log Transit):** For when you want to reposition between sessions — the "our org event is tomorrow night" scenario. Here's exactly how it works:
 
-These two modes cover both the "I need to relocate right now" and "our org event is tomorrow night" scenarios. The infrastructure already exists in-game — commercial flight terminals are built into every major landing zone.
+1. **Booking:** Walk to a transit hub at any major spaceport. Interact with a terminal. Select your destination from available commercial routes (major spaceports only — you can't transit-sleep to a random outpost). The terminal displays the estimated travel time and ticket cost.
+
+2. **Departure:** Confirm the booking, lie down in a transit hub bed, and log out. Your body is now physically aboard a commercial transport — asleep in a sleeper cabin. A server-side countdown begins from the moment you log out: departure time + travel duration = arrival time. This timer runs in real-world time whether you're online or offline.
+
+3. **Travel Duration:** The transit takes real-world time proportional to actual in-game distance, calculated at approximately **0.75x of manual QT travel time, with a minimum floor of 30 minutes.** This means planning ahead is rewarded (it's faster than flying yourself), but it's not instant teleportation. The 30-minute floor prevents abuse on short-distance routes. Cross-system trips through jump points take proportionally longer. Routes only exist along established commercial lanes — some systems may have limited or no service.
+
+4. **Arrival — Logging Back In:** When you log in after the timer has completed, you spawn at your destination spaceport. "You slept through your commercial flight." If you log in before the timer has completed, you get a choice: **stay committed** (remain logged out or sit in the transit ship if physicalized, and wait for arrival) or **cancel the trip** (wake up back at the departure hub where you started, ticket refunded minus a cancellation fee). You are never in limbo — you're either on the transport or you're back where you started.
+
+5. **Physicalization:** Ideally, your body is actually aboard a real transport ship during the timer. If CIG physicalizes the transit fleet, a Starliner departs on schedule with your sleeping body in a cabin. If someone could board that ship mid-flight, they'd find you asleep. This is the cleanest persistence answer. At minimum, the server tracks your body as "in transit" so it exists somewhere in the world at all times — it never simply doesn't exist.
+
+These two modes cover the full spectrum of relocation needs: Real-Time Transit for "I need to move right now during my session," Pre-Planned Transit for "I need to be somewhere tomorrow." The infrastructure already exists in-game — commercial flight terminals are built into every major landing zone.
 
 ### Layer 2: Last Mile — Imprint Shells (The New Mechanic)
 
