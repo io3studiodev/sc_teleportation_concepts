@@ -31,6 +31,28 @@ Each idea is scored 1-5 across seven axes. A score of 1 on Physicalization or Pe
 
 ---
 
+## Rankings at a Glance
+
+| Rank | Idea | Score | Best At |
+|------|------|-------|---------|
+| ★ | **Imprint Shell Network (Hybrid)** | **33/35** | **Full coverage: physicalization, persistence, lore, versatility, anti-duplication** |
+| 2 | C.I.V. / I.R.C. | 31/35 | Physicalization, persistence, anti-exploitation |
+| 3 | Agent Smithing | 30/35 | Versatility, effectiveness, leverages existing systems |
+| 4 | Commercial Flights (Starliner) | 28/35 | Lore compatibility, physicalization, unexploitable |
+| 4 | Bed Log Transit | 28/35 | Unexploitable, trivial to implement, lore-perfect |
+| 6 | Transfer Transit | 27/35 | Built-in time limit, consequence mechanics |
+| 6 | Crew Quarters Registry | 27/35 | Highest feasibility, gives crew quarters purpose |
+| 8 | Rare Alien Structures | 25/35 | Physicalization purity, exploration content |
+| 8 | Formalized Medbed Clone-In | 25/35 | Zero new engineering, formalizes existing behavior |
+| 10 | Group Launch | 24/35 | Session-start grouping, unexploitable |
+| 11 | Paid NPC Transport (Fade-to-Black) | 23/35 | Lore-friendly concept, economically balanced |
+| 12 | Teleport to Docked Ship | 22/35 | Simplest implementation, strong problem statement |
+| — | Fix the Friction First | N/A | Data shows ~96% of time lost is bugs/friction, not travel |
+
+*Detailed scoring breakdowns for each idea follow below.*
+
+---
+
 ## IDEA #1: Agent Smithing
 
 **Composite Score: 30/35**
