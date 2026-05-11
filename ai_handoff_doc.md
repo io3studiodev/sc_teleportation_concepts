@@ -73,7 +73,7 @@ Each scored 1-5 across: Physicalization, Persistence, Lore Compatibility, Effect
 
 3. **Commercial Flights / Genesis Starliner (28/35):** Board a real physicalized commercial ship at a spaceport, ride it to destination. Scheduled departures, accelerated QT. Perfect physicalization and lore. Weakness: relocation only, not grouping. Doesn't get you onto a friend's ship.
 
-4. **Bed Log Transit (28/35):** Log out at transit hub, wake up at destination next session. "You slept through your commercial flight." Virtually unexploitable. Weakness: pre-planned only, useless for spontaneous grouping.
+4. **Bed Log Transit (28/35):** Log out at transit hub, server-side real-world countdown starts (travel time = ~0.75x manual QT time, 30-minute minimum). Body is physically aboard a transport. Log in after timer completes: spawn at destination. Log in early: wait or cancel and wake up at departure hub. Virtually unexploitable. Weakness: pre-planned only, useless for spontaneous grouping.
 
 5. **Transfer Transit / Temporary Clone (27/35):** Consciousness into a temporary clone with a degradation timer. Memory loss if clone dies before syncing. Weakness: materializing a body from nothing is hard to justify in a physicalized universe.
 
@@ -93,7 +93,7 @@ Each scored 1-5 across: Physicalization, Persistence, Lore Compatibility, Effect
 
 **Two-layer system:**
 
-**Layer 1 — Long Haul:** Physicalized Commercial Flights (ride a real Starliner) + Bed Log Transit (schedule travel while offline). Handles cross-system relocation.
+**Layer 1 — Long Haul:** Physicalized Commercial Flights (ride a real Starliner) + Bed Log Transit (log out at transit hub, real-world countdown at 0.75x manual QT speed with 30-min minimum, body physically aboard transport, log in after timer to spawn at destination or cancel to return to departure point). Handles cross-system relocation.
 
 **Layer 2 — Last Mile:** Imprint Shells. Key specs:
 - Organic clone bodies grown at medical facilities, sold at ports as physical consumables
