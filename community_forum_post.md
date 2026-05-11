@@ -19,7 +19,7 @@ Keep in mind, Thorston said "fast travel to party leader, or party hangar." So i
 
 I've only got so much time in the day so this will only be updated once or twice per day.
 
-📄 **[Full detailed analysis with scoring breakdowns, anti-exploitation mechanics, and edge case discussion →](LINK_TO_GITHUB_FULL_DOC)**
+📄 **[Full detailed analysis with scoring breakdowns, anti-exploitation mechanics, and edge case discussion →](https://github.com/io3studiodev/sc_teleportation_concepts/blob/main/fast_travel_megathread.md)**
 
 ---
 
@@ -41,7 +41,9 @@ After analyzing all 11 community ideas, I had the AI synthesize a hybrid pulling
 
 ### Layer 1 — Long Haul (Cross-System Relocation)
 
-**Physicalized Commercial Flights:** Board a real Genesis Starliner at a spaceport, ride it to your destination. Scheduled departures, accelerated QT, no loading screens. The commercial flight infrastructure is already built into landing zones. Combined with **Bed Log Transit** — log out at a transit hub, wake up at your destination next session ("You slept through your commercial flight").
+**Physicalized Commercial Flights:** Board a real Genesis Starliner at a spaceport, ride it to your destination. Scheduled departures, accelerated QT, no loading screens. For real-time relocation during a session.
+
+**Bed Log Transit:** For repositioning between sessions. Walk to a transit hub, select your destination, lie down, log out. A real-world countdown starts (travel time = ~0.75x manual QT time, 30-minute minimum). Your body is physically aboard a transport — asleep in a sleeper cabin. When you log back in after the timer completes: "You slept through your commercial flight." If you log in early, you can wait or cancel and wake up where you started. Routes only serve major spaceports along commercial lanes.
 
 ### Layer 2 — Last Mile (Ship Crewing, Grouping, Instanced Content)
 
@@ -55,26 +57,35 @@ After analyzing all 11 community ideas, I had the AI synthesize a hybrid pulling
 
 **Upgrade path:** When NPC crew arrives, Shells evolve into Agent Smithing. The inert clone becomes a living NPC you take over. Same mechanic, better body. CIG doesn't build two systems.
 
-**Full detailed breakdown with lore justification, anti-exploit mechanics, and edge cases in the [complete document](LINK_TO_GITHUB_FULL_DOC).**
+**Full detailed breakdown with lore justification, anti-exploit mechanics, and edge cases in the [complete document](https://github.com/io3studiodev/sc_teleportation_concepts/blob/main/fast_travel_megathread.md).**
 
 ---
 
 ## Community Ideas Ranked (11 Proposals Evaluated)
 
-| Rank | Idea | Score | Original Post | Best At |
-|------|------|-------|---------------|---------|
-| ★ | **Imprint Shell Network** | **33/35** | Synthesized | Full coverage, anti-duplication, upgrade path |
-| 2 | C.I.V. / I.R.C. | 31/35 | [Link](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/an-alternative-to-instant-pc-travel-teleportation-) | Physicalization, persistence, anti-exploitation |
-| 3 | Agent Smithing | 30/35 | ~2015 concept | Versatility, effectiveness, existing systems |
-| 4 | Commercial Flights | 28/35 | [Link](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/fast-travel-done-right) | Lore compatibility, physicalization |
-| 4 | Bed Log Transit | 28/35 | [Link](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-why-it-doesn-t-make-sense-now-but-coul) | Unexploitable, trivial to implement |
-| 6 | Transfer Transit | 27/35 | [Link](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/maybe-transfer-transit-is-the-way) | Built-in time limit, consequences |
-| 6 | Crew Quarters Registry | 27/35 | [Link](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/crew-quarters-an-alternative-to-teleportation) | Highest feasibility, crew quarter purpose |
-| 8 | Rare Alien Structures | 25/35 | [Link](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-why-it-doesn-t-make-sense-now-but-coul) | Endgame exploration content |
-| 8 | Medbed Clone-In | 25/35 | [Link](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-already-exist-and-how-to-implement-it) | Formalizes existing behavior |
-| 10 | Group Launch | 24/35 | [Link](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/not-teleport-fast-travel-but-group-launch) | Session-start grouping |
-| 11 | NPC Transport (Fade) | 23/35 | [Link](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-fast-travel-would-be-great-for-star-ci) | Lore-friendly concept |
-| 12 | Teleport to Docked Ship | 22/35 | [Link](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-fast-travel-would-be-great-for-star-ci) | Simplest implementation |
+**★ Imprint Shell Network — 33/35** (Synthesized) — Full coverage, anti-duplication, upgrade path
+
+**#2 — C.I.V. / I.R.C. — 31/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/an-alternative-to-instant-pc-travel-teleportation-)) — Physicalization, persistence, anti-exploitation
+
+**#3 — Agent Smithing — 30/35** (~2015 concept) — Versatility, effectiveness, existing systems
+
+**#4 — Commercial Flights — 28/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/fast-travel-done-right)) — Lore compatibility, physicalization
+
+**#4 — Bed Log Transit — 28/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-why-it-doesn-t-make-sense-now-but-coul)) — Unexploitable, trivial to implement
+
+**#6 — Transfer Transit — 27/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/maybe-transfer-transit-is-the-way)) — Built-in time limit, consequences
+
+**#6 — Crew Quarters Registry — 27/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/crew-quarters-an-alternative-to-teleportation)) — Highest feasibility, crew quarter purpose
+
+**#8 — Rare Alien Structures — 25/35** ([Source](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-why-it-doesn-t-make-sense-now-but-coul)) — Endgame exploration content
+
+**#8 — Medbed Clone-In — 25/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-already-exist-and-how-to-implement-it)) — Formalizes existing behavior
+
+**#10 — Group Launch — 24/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/not-teleport-fast-travel-but-group-launch)) — Session-start grouping
+
+**#11 — NPC Transport (Fade) — 23/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-fast-travel-would-be-great-for-star-ci)) — Lore-friendly concept
+
+**#12 — Teleport to Docked Ship — 22/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-fast-travel-would-be-great-for-star-ci)) — Simplest implementation
 
 ---
 
