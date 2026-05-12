@@ -1,36 +1,13 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Teleportation Ideas Megathread</title>
+<html><head><meta charset="utf-8"><title>Teleportation Ideas Megathread</title>
 <style>
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
-    line-height: 1.6;
-    color: #e0e0e0;
-    background: #1a1a2e;
-  }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #e0e0e0; background: #1a1a2e; }
   a { color: #4fc3f7; text-decoration: underline; }
   h1 { color: #fff; border-bottom: 2px solid #4fc3f7; padding-bottom: 10px; font-size: 1.6em; }
-  h2 { color: #e0e0e0; margin-top: 2em; }
-  h3 { color: #b0b0b0; }
-  hr { border: 1px solid #333; margin: 2em 0; }
-  strong { color: #fff; }
-  ul, ol { padding-left: 1.5em; }
-  li { margin-bottom: 0.5em; }
-  p { margin: 0.8em 0; }
-  table { border-collapse: collapse; width: 100%; margin: 1em 0; }
-  th, td { border: 1px solid #444; padding: 8px 12px; text-align: left; }
-  th { background: #2a2a4a; color: #fff; }
-  tr:nth-child(even) { background: #1e1e3a; }
-  tr:nth-child(odd) { background: #1a1a2e; }
-</style>
-</head>
-<body>
-<h1>"Teleportation" Ideas Megathread — Help Me Build the Best Possible Submission for CIG</h1>
+  h2 { color: #e0e0e0; margin-top: 2em; } h3 { color: #b0b0b0; }
+  hr { border: 1px solid #333; margin: 2em 0; } strong { color: #fff; }
+  ul, ol { padding-left: 1.5em; } li { margin-bottom: 0.5em; } p { margin: 0.8em 0; }
+</style></head><body><h1>"Teleportation" Ideas Megathread — Help Me Build the Best Possible Submission for CIG</h1>
 <p>Thorston said "it's not signed off yet." Jared reiterated "it's not a signed off feature... we have to explore those things, even if we never do it." That means we have a small window to get this right.</p>
 <p>Over the last 48 hours, this community has generated dozens of threads with ideas, counterarguments, and heated debate about fast travel. Instead of letting all of that scatter across Spectrum, I've been curating the strongest proposals, scoring them against SC's own design pillars, and synthesizing what I think might be the strongest possible solution.</p>
 <p><strong>Full transparency:</strong> I used AI (Claude) to help analyze, score, and synthesize these ideas. It's never played Star Citizen. That's exactly why I'm posting this here first — <strong>this needs to be stress-tested by people who actually play the game</strong> before I submit a final version to CIG's Ideas section.</p>
@@ -43,7 +20,7 @@
 <p>Keep in mind, Thorston said "fast travel to party leader, or party hangar." So ideas have to solve several scenarios: getting to someone's ship, to party leader, to a leader's hangar, and to instanced content entrances like Municipal Works or Siege of Orison.</p>
 <p><strong>Once this has been pressure-tested by the community, I'll synthesize all feedback into a final document and post it in the Ideas section as a formal submission to CIG — complete with an AI-ready handoff doc their design team can use for implementation planning.</strong></p>
 <p>I've only got so much time in the day so this will only be updated once or twice per day.</p>
-<p>📄 <strong><a href="LINK_TO_GITHUB_FULL_DOC">Full detailed analysis with scoring breakdowns, anti-exploitation mechanics, and edge case discussion →</a></strong></p>
+<p>📄 <strong><a href="https://github.com/io3studiodev/sc_teleportation_concepts/blob/main/fast_travel_megathread.md">Full detailed analysis with scoring breakdowns, anti-exploitation mechanics, and edge case discussion →</a></strong></p>
 <hr />
 <h2>A Critical Data Point Before We Start</h2>
 <p>Community analysis shows that <strong>actual travel time accounts for roughly 4% of total time lost</strong> when grouping up. The other 96% is bugs and friction — loading ships with vehicles (30 min), server switching (15 min), ASOP bugs (10 min), broken jump points (10 min). We may be asking for teleportation to skip bugs, not travel. (<a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/the-teleport-debate">Source</a>)</p>
@@ -54,113 +31,30 @@
 <h2>The Synthesized Hybrid: Imprint Shell Network — 33/35</h2>
 <p>After analyzing all 11 community ideas, I had the AI synthesize a hybrid pulling the strongest elements from the top proposals. <strong>This is the thing I most want you to stress-test.</strong> Can you break it? Is there an exploit? Does it violate a design pillar I'm not seeing?</p>
 <h3>Layer 1 — Long Haul (Cross-System Relocation)</h3>
-<p><strong>Physicalized Commercial Flights:</strong> Board a real Genesis Starliner at a spaceport, ride it to your destination. Scheduled departures, accelerated QT, no loading screens. The commercial flight infrastructure is already built into landing zones. Combined with <strong>Bed Log Transit</strong> — log out at a transit hub, wake up at your destination next session ("You slept through your commercial flight").</p>
+<p><strong>Physicalized Commercial Flights:</strong> Board a real Genesis Starliner at a spaceport, ride it to your destination. Scheduled departures, accelerated QT, no loading screens. For real-time relocation during a session.</p>
+<p><strong>Bed Log Transit:</strong> For repositioning between sessions. Walk to a transit hub, select your destination, lie down, log out. A real-world countdown starts (travel time = ~0.75x manual QT time, 30-minute minimum). Your body is physically aboard a transport — asleep in a sleeper cabin. When you log back in after the timer completes: "You slept through your commercial flight." If you log in early, you can wait or cancel and wake up where you started. Routes only serve major spaceports along commercial lanes.</p>
 <h3>Layer 2 — Last Mile (Ship Crewing, Grouping, Instanced Content)</h3>
 <p><strong>Imprint Shells.</strong> Purpose-grown organic clone bodies, purchased at ports as physical consumables (torpedo-priced), transported to a ship, and placed in crew quarter beds. Ship needs a Relay Beacon component installed. Your consciousness transfers via FTL comms (Dr. Betel's breakthrough) into the Shell from any Imprint Terminal at a port. You wake up in a medical gown — no gear, no items, nothing transfers in either direction. Your real body stays in stasis at the terminal, physical and vulnerable. You gear up from the ship's armory. When done or the Shell's biological degradation timer expires (4-8 hours), consciousness snaps back, Shell dies, leaves a corpse with its gear for the owner to recover.</p>
 <p><strong>Item duplication is structurally impossible</strong> — consciousness crosses the transfer boundary, matter never does, period.</p>
 <p><strong>For instanced content:</strong> Contractor Shells at mission entrances. Can't pick up loot, can't carry anything out, despawn on mission complete.</p>
 <p><strong>Anti-exploitation:</strong> Expensive one-use consumables, Relay Beacon with capacity/range limits, degradation timer, combat lockout (can't transfer into a ship under fire), cooldown between transfers, real body vulnerability at terminal, Contractor Shell loot restrictions.</p>
 <p><strong>Upgrade path:</strong> When NPC crew arrives, Shells evolve into Agent Smithing. The inert clone becomes a living NPC you take over. Same mechanic, better body. CIG doesn't build two systems.</p>
-<p><strong>Full detailed breakdown with lore justification, anti-exploit mechanics, and edge cases in the <a href="LINK_TO_GITHUB_FULL_DOC">complete document</a>.</strong></p>
+<p><strong>Full detailed breakdown with lore justification, anti-exploit mechanics, and edge cases in the <a href="https://github.com/io3studiodev/sc_teleportation_concepts/blob/main/fast_travel_megathread.md">complete document</a>.</strong></p>
 <hr />
 <h2>Community Ideas Ranked (11 Proposals Evaluated)</h2>
-<table>
-<thead>
-<tr>
-<th>Rank</th>
-<th>Idea</th>
-<th>Score</th>
-<th>Original Post</th>
-<th>Best At</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>★</td>
-<td><strong>Imprint Shell Network</strong></td>
-<td><strong>33/35</strong></td>
-<td>Synthesized</td>
-<td>Full coverage, anti-duplication, upgrade path</td>
-</tr>
-<tr>
-<td>2</td>
-<td>C.I.V. / I.R.C.</td>
-<td>31/35</td>
-<td><a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/an-alternative-to-instant-pc-travel-teleportation-">Link</a></td>
-<td>Physicalization, persistence, anti-exploitation</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Agent Smithing</td>
-<td>30/35</td>
-<td>~2015 concept</td>
-<td>Versatility, effectiveness, existing systems</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Commercial Flights</td>
-<td>28/35</td>
-<td><a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/fast-travel-done-right">Link</a></td>
-<td>Lore compatibility, physicalization</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Bed Log Transit</td>
-<td>28/35</td>
-<td><a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-why-it-doesn-t-make-sense-now-but-coul">Link</a></td>
-<td>Unexploitable, trivial to implement</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Transfer Transit</td>
-<td>27/35</td>
-<td><a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/maybe-transfer-transit-is-the-way">Link</a></td>
-<td>Built-in time limit, consequences</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Crew Quarters Registry</td>
-<td>27/35</td>
-<td><a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/crew-quarters-an-alternative-to-teleportation">Link</a></td>
-<td>Highest feasibility, crew quarter purpose</td>
-</tr>
-<tr>
-<td>8</td>
-<td>Rare Alien Structures</td>
-<td>25/35</td>
-<td><a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-why-it-doesn-t-make-sense-now-but-coul">Link</a></td>
-<td>Endgame exploration content</td>
-</tr>
-<tr>
-<td>8</td>
-<td>Medbed Clone-In</td>
-<td>25/35</td>
-<td><a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-already-exist-and-how-to-implement-it">Link</a></td>
-<td>Formalizes existing behavior</td>
-</tr>
-<tr>
-<td>10</td>
-<td>Group Launch</td>
-<td>24/35</td>
-<td><a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/not-teleport-fast-travel-but-group-launch">Link</a></td>
-<td>Session-start grouping</td>
-</tr>
-<tr>
-<td>11</td>
-<td>NPC Transport (Fade)</td>
-<td>23/35</td>
-<td><a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-fast-travel-would-be-great-for-star-ci">Link</a></td>
-<td>Lore-friendly concept</td>
-</tr>
-<tr>
-<td>12</td>
-<td>Teleport to Docked Ship</td>
-<td>22/35</td>
-<td><a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-fast-travel-would-be-great-for-star-ci">Link</a></td>
-<td>Simplest implementation</td>
-</tr>
-</tbody>
-</table>
+<p><strong>★ Imprint Shell Network — 33/35</strong> (Synthesized) — Full coverage, anti-duplication, upgrade path</p>
+<p><strong>#2 — C.I.V. / I.R.C. — 31/35</strong> (<a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/an-alternative-to-instant-pc-travel-teleportation-">Original Post</a>) — Physicalization, persistence, anti-exploitation</p>
+<p><strong>#3 — Agent Smithing — 30/35</strong> (~2015 concept) — Versatility, effectiveness, existing systems</p>
+<p><strong>#4 — Commercial Flights — 28/35</strong> (<a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/fast-travel-done-right">Original Post</a>) — Lore compatibility, physicalization</p>
+<p><strong>#4 — Bed Log Transit — 28/35</strong> (<a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-why-it-doesn-t-make-sense-now-but-coul">Original Post</a>) — Unexploitable, trivial to implement</p>
+<p><strong>#6 — Transfer Transit — 27/35</strong> (<a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/maybe-transfer-transit-is-the-way">Original Post</a>) — Built-in time limit, consequences</p>
+<p><strong>#6 — Crew Quarters Registry — 27/35</strong> (<a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/crew-quarters-an-alternative-to-teleportation">Original Post</a>) — Highest feasibility, crew quarter purpose</p>
+<p><strong>#4 — Remote Medical Imprint Transfer — 28/35</strong> (<a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleport-to-party-leader-with-remote-medical-impri">Original Post</a>) — Expand existing medbed functionality via FTL comms. Gear auto-stores at departure. Simplest implementation of any high-scorer. Unique hangar-spawn lets you access your own stored ships/equipment.</p>
+<p><strong>#9 — Rare Alien Structures — 25/35</strong> (<a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-why-it-doesn-t-make-sense-now-but-coul">Source</a>) — Endgame exploration content</p>
+<p><strong>#9 — Medbed Clone-In — 25/35</strong> (<a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-already-exist-and-how-to-implement-it">Original Post</a>) — Formalizes existing behavior</p>
+<p><strong>#11 — Group Launch — 24/35</strong> (<a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/not-teleport-fast-travel-but-group-launch">Original Post</a>) — Session-start grouping</p>
+<p><strong>#12 — NPC Transport (Fade) — 23/35</strong> (<a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-fast-travel-would-be-great-for-star-ci">Original Post</a>) — Lore-friendly concept</p>
+<p><strong>#13 — Teleport to Docked Ship — 22/35</strong> (<a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-fast-travel-would-be-great-for-star-ci">Original Post</a>) — Simplest implementation</p>
 <hr />
 <h2>Fix the Friction First (Regardless of Fast Travel Decision)</h2>
 <p><strong>Sources:</strong> <a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/before-we-try-teleportation">Before we try teleportation</a> | <a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/the-teleport-debate">The teleport debate</a> | <a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-is-not-the-answer-a-calender-is">A calendar is the answer</a> | <a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-is-stupid-group-bed-log-should-be-prio">Group bed log priority</a></p>
@@ -179,6 +73,4 @@
 <p>This thread stays open for community feedback. I'll add new ideas, adjust scores if someone makes a compelling argument, and incorporate exploit vectors I missed. Once it's been properly pressure-tested, I'll compile the final version and post it in <strong>CIG's Ideas section</strong> as a formal submission — with a structured handoff document their design team can feed directly into AI tools for implementation planning.</p>
 <p>We built this in 48 hours. Let's make sure it's bulletproof before we hand it over.</p>
 <hr />
-<p><em>All community contributors credited via links to original posts. If your idea is missing, post it or link it here.</em></p>
-</body>
-</html>
+<p><em>All community contributors credited via links to original posts. If your idea is missing, post it or link it here.</em></p></body></html>

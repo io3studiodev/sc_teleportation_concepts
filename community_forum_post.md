@@ -77,15 +77,17 @@ After analyzing all 11 community ideas, I had the AI synthesize a hybrid pulling
 
 **#6 — Crew Quarters Registry — 27/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/crew-quarters-an-alternative-to-teleportation)) — Highest feasibility, crew quarter purpose
 
-**#8 — Rare Alien Structures — 25/35** ([Source](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-why-it-doesn-t-make-sense-now-but-coul)) — Endgame exploration content
+**#4 — Remote Medical Imprint Transfer — 28/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleport-to-party-leader-with-remote-medical-impri)) — Expand existing medbed functionality via FTL comms. Gear auto-stores at departure. Simplest implementation of any high-scorer. Unique hangar-spawn lets you access your own stored ships/equipment.
 
-**#8 — Medbed Clone-In — 25/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-already-exist-and-how-to-implement-it)) — Formalizes existing behavior
+**#9 — Rare Alien Structures — 25/35** ([Source](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-why-it-doesn-t-make-sense-now-but-coul)) — Endgame exploration content
 
-**#10 — Group Launch — 24/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/not-teleport-fast-travel-but-group-launch)) — Session-start grouping
+**#9 — Medbed Clone-In — 25/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-already-exist-and-how-to-implement-it)) — Formalizes existing behavior
 
-**#11 — NPC Transport (Fade) — 23/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-fast-travel-would-be-great-for-star-ci)) — Lore-friendly concept
+**#11 — Group Launch — 24/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/not-teleport-fast-travel-but-group-launch)) — Session-start grouping
 
-**#12 — Teleport to Docked Ship — 22/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-fast-travel-would-be-great-for-star-ci)) — Simplest implementation
+**#12 — NPC Transport (Fade) — 23/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-fast-travel-would-be-great-for-star-ci)) — Lore-friendly concept
+
+**#13 — Teleport to Docked Ship — 22/35** ([Original Post](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleporting-fast-travel-would-be-great-for-star-ci)) — Simplest implementation
 
 ---
 

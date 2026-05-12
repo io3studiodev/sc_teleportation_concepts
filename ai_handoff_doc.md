@@ -83,7 +83,9 @@ Each scored 1-5 across: Physicalization, Persistence, Lore Compatibility, Effect
 
 8. **Formalized Medbed Clone-In (25/35):** Deliberately clone to a party member's medbed. Everything exists already. Weakness: conflicts with DOAS — each use costs a clone life once death penalties are live.
 
-9. **Group Launch (24/35):** Spawn at party leader's station when logging in after 1+ hour offline. Pay QT fuel. UEE only. Session-start only.
+9. **Remote Medical Imprint Transfer (28/35):** Expand existing medbed functionality — remotely transfer medical imprint via FTL comms to a party member's medbed or hangar medbed. Gear auto-stores at departure location (no duplication). Spawn on ship = gear from armory. Spawn in hangar = access own stored ships/equipment. Framed as "consciousness relocation" not death. Simplest implementation of any high-scoring idea. Weakness: DOAS cost tension remains — if no clone-life cost, needs another anti-abuse gate.
+
+10. **Group Launch (24/35):** Spawn at party leader's station when logging in after 1+ hour offline. Pay QT fuel. UEE only. Session-start only.
 
 10. **Paid NPC Transport / Fade-to-Black (23/35):** Pay fare, screen fades, arrive at destination. Good concept but body doesn't exist during transit.
 

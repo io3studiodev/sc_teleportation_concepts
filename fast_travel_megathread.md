@@ -40,13 +40,14 @@ Each idea is scored 1-5 across seven axes. A score of 1 on Physicalization or Pe
 | 3 | Agent Smithing | 30/35 | Versatility, effectiveness, leverages existing systems |
 | 4 | Commercial Flights (Starliner) | 28/35 | Lore compatibility, physicalization, unexploitable |
 | 4 | Bed Log Transit | 28/35 | Unexploitable, trivial to implement, lore-perfect |
-| 6 | Transfer Transit | 27/35 | Built-in time limit, consequence mechanics |
-| 6 | Crew Quarters Registry | 27/35 | Highest feasibility, gives crew quarters purpose |
-| 8 | Rare Alien Structures | 25/35 | Physicalization purity, exploration content |
-| 8 | Formalized Medbed Clone-In | 25/35 | Zero new engineering, formalizes existing behavior |
-| 10 | Group Launch | 24/35 | Session-start grouping, unexploitable |
-| 11 | Paid NPC Transport (Fade-to-Black) | 23/35 | Lore-friendly concept, economically balanced |
-| 12 | Teleport to Docked Ship | 22/35 | Simplest implementation, strong problem statement |
+| 4 | Remote Medical Imprint Transfer | 28/35 | Simplest implementation of high-scorers, auto-store gear, hangar spawning |
+| 7 | Transfer Transit | 27/35 | Built-in time limit, consequence mechanics |
+| 7 | Crew Quarters Registry | 27/35 | Highest feasibility, gives crew quarters purpose |
+| 9 | Rare Alien Structures | 25/35 | Physicalization purity, exploration content |
+| 9 | Formalized Medbed Clone-In | 25/35 | Zero new engineering, formalizes existing behavior |
+| 11 | Group Launch | 24/35 | Session-start grouping, unexploitable |
+| 12 | Paid NPC Transport (Fade-to-Black) | 23/35 | Lore-friendly concept, economically balanced |
+| 13 | Teleport to Docked Ship | 22/35 | Simplest implementation, strong problem statement |
 | — | Fix the Friction First | N/A | Data shows ~96% of time lost is bugs/friction, not travel |
 
 *Detailed scoring breakdowns for each idea follow below.*
@@ -576,6 +577,58 @@ The Death of a Spaceman tension is fundamental. If DOAS penalties are meaningful
 
 ---
 
+## IDEA #12: Remote Medical Imprint Transfer via FTL Comms
+
+**Composite Score: 28/35**
+
+**Original Post:** [Teleport to party leader with remote medical imprint transfers via FTL Comms](https://robertsspaceindustries.com/spectrum/community/SC/forum/3/thread/teleport-to-party-leader-with-remote-medical-impri) — Posted May 2026
+
+### Summary
+
+Expand existing medbed functionality rather than building a new system. Players remotely transfer their medical imprint to a party member's medbed (on a ship) or a medbed at a party leader's hangar via FTL communications. You respawn at that medbed with no gear. Your FPS equipment at the departure location is automatically stored in that location's local inventory before the transfer occurs — no duplication, no lootable corpse, no gear in limbo. If you spawn on a ship, the party leader supplies gear from the armory. If you spawn in a hangar, you access your own stored equipment and ships at that location. Framed as "relocating consciousness" rather than dying, which potentially sidesteps the DOAS clone-life cost.
+
+### Key Differences from Medbed Clone-In (#11)
+
+- **Auto-store gear mechanic:** Your equipment doesn't vanish, leave a lootable corpse, or duplicate — it automatically transfers to local inventory at your departure location. Clean player experience, zero duplication risk.
+- **Explicit FTL comms transmission:** Uses Dr. Betel's FTL communication breakthrough as the mechanism for remote imprint transfer. Every link in the chain (FTL comms → imprint data → medbed cloning) already exists in SC lore.
+- **Consciousness relocation, not death:** Framed as a medbed feature expansion rather than formalizing a suicide exploit, which sidesteps the DOAS tension differently — you're not "dying" to fast travel, you're "relocating."
+- **Hangar spawning variant:** Uniquely allows spawning in a party leader's hangar where you can access your own stored ships and equipment at that location. No other idea offers this.
+
+### How It Works Across Use Cases
+
+- **Ship Crewing:** Transfer imprint to party leader's ship medbed. Spawn with no gear. Equip from the ship's armory.
+- **Hangar Grouping:** Transfer imprint to party leader's hangar medbed. Spawn with no gear but access your own stored ships/equipment at that location. Strongest hangar-grouping mechanic of any proposal.
+- **Instanced Content:** Works if there's a medbed at or near the mission entrance.
+
+### Scoring Breakdown
+
+| Axis | Score | Reasoning |
+|------|-------|-----------|
+| Physicalization | 3/5 | A clone body is generated at the destination medbed from medgel — but this is exactly how respawning already works. The game already accepts that medbeds materialize bodies. The original body situation is abstracted: gear auto-stores and the body presumably enters stasis or ceases to exist. |
+| Persistence | 3/5 | Gear auto-stores rather than leaving a corpse, which is cleaner UX but slightly less persistent — a body and its gear converting into inventory entries is an abstraction rather than a physical state. |
+| Lore Compatibility | 5/5 | The strongest lore chain of any medbed-based proposal. FTL comms (established) → remote medical imprint transfer → medbed cloning (established). Every link already exists. Invents nothing new — just connects existing dots. |
+| Effectiveness | 5/5 | Extremely effective. Transfer imprint, spawn at friend's medbed or hangar, gear up instantly. Hangar spawning is particularly strong — you access your own stored ships and equipment at that location. |
+| Exploitability | 3/5 | Medgel consumption limits uses. Auto-store gear mechanic prevents item duplication. But the core question: does this cost a DOAS clone life? If yes, casual grouping becomes punishing. If no, what prevents spamming it? "Relocate consciousness" framing implies no DOAS cost, but then the system needs another anti-abuse gate (cooldown, cost, limited uses). |
+| Feasibility | 5/5 | The poster's strongest argument. Medbeds exist. Medgel exists. DNA imprinting exists. Local inventory storage exists. FTL comms exist. This requires the least new engineering of any proposal scoring above 25 — it's a UI addition to existing medbed functionality plus a remote imprint transfer protocol. |
+| Versatility | 4/5 | Ship crewing — works with medbeds. Hangar grouping — works perfectly with unique hangar-spawn advantage. Instanced content — works if medbeds are placed near entrances. Limited by medbed placement. |
+
+### Key Strengths
+
+- Simplest implementation of any high-scoring idea — genuinely just expanding existing medbed UI.
+- Auto-store gear mechanic is the cleanest solution to the "what happens to my stuff" problem of any proposal. No lootable corpse, no duplication, no gear limbo.
+- Hangar spawning with access to your own stored ships/equipment is a unique advantage no other idea offers.
+- Perfect lore compatibility — every component already exists in-universe.
+
+### Key Weakness
+
+The DOAS tension remains, just reframed. If "relocating consciousness" doesn't cost a clone life, CIG needs another anti-abuse mechanism. If it does cost a clone life, the framing doesn't help — it's still punishing players for grouping up. The poster's concept is sound but the cost/gating mechanic is underspecified.
+
+### Note for the Hybrid
+
+The **auto-store gear mechanic** from this proposal is worth incorporating into the Imprint Shell Network hybrid. Currently the hybrid specifies that the player's real body stays in stasis at the Imprint Terminal, implicitly carrying all their gear in a vulnerable state. Automatically storing gear in local inventory at the departure terminal before transfer is a cleaner player experience and eliminates the edge case of someone looting your sleeping body's gear.
+
+---
+
 ## Community Counterarguments Against Fast Travel
 
 These posts don't propose solutions but articulate *why* the community cares so deeply about this issue. They provide essential context for understanding why the rubric weights physicalization and persistence so heavily.
@@ -695,7 +748,7 @@ Every anti-abuse mechanic maps to a physicalized, in-universe cost:
 - **Shells are expensive consumables.** Each one costs roughly what a torpedo costs. A ship with 8 crew beds needs 8 Shells — real money, real logistics. You have to fly to a port, buy them, haul them to your ship, and place them. They're one-use: once the player leaves, the Shell dies.
 - **Relay Beacon limits.** The Beacon is a ship component with a tier-based capacity. Small ships might support 2-3 Shells, capital ships might support 20+. The Beacon also has a **maximum operational range** — you can't transfer into a Shell that's too far from a relay network or Imprint Terminal.
 - **No gear transfers.** Absolute rule. Your real body keeps everything it had. The Shell starts with a medical gown. Whatever the Shell picks up stays with the Shell corpse. Consciousness moves, matter doesn't. Item duplication is structurally impossible.
-- **Real body vulnerability.** Your real body is in stasis at an Imprint Terminal. It's physical and persistent. In secure UEE space, this is low-risk. In a lawless station, someone could theoretically find and loot your sleeping body. This creates a natural risk/reward calculation — transferring from a safe port is fine, transferring from a shady Pyro station carries risk.
+- **Real body vulnerability & gear auto-store.** Your real body is in stasis at an Imprint Terminal. It's physical and persistent. To prevent the edge case of someone looting your sleeping body's gear (especially in lawless space), the system should auto-store your FPS equipment in the local inventory at the departure terminal before the transfer occurs (mechanic borrowed from the Remote Medical Imprint Transfer proposal, Idea #12). Your body is still physically present and vulnerable to observation or interaction, but your gear is safely stored. This eliminates an exploit vector while providing a cleaner player experience.
 - **Degradation timer.** 4-8 hours before the Shell fails. You can't permanently relocate via Shell — it's always temporary.
 - **Combat lockout.** Cannot transfer into a Shell aboard a ship that is in active combat (shields taking fire, weapons deployed, hostile proximity alert). Prevents instant combat reinforcement drops.
 - **Cooldown.** After transferring out of a Shell, there's a cooldown (30-60 minutes) before you can transfer into another one. Prevents rapid Shell-hopping across the universe.
@@ -770,13 +823,14 @@ The hybrid solves each of these:
 | 3 | Agent Smithing | 30/35 | Versatility, effectiveness, leverages existing systems |
 | 4 | Commercial Flights (Starliner) | 28/35 | Lore compatibility, physicalization, unexploitable |
 | 4 | Bed Log Transit | 28/35 | Unexploitable, trivial to implement, lore-perfect |
-| 6 | Transfer Transit | 27/35 | Built-in time limit, consequence mechanics |
-| 6 | Crew Quarters Registry | 27/35 | Highest feasibility, gives crew quarters purpose |
-| 8 | Rare Alien Structures | 25/35 | Physicalization purity, exploration content |
-| 8 | Formalized Medbed Clone-In | 25/35 | Zero new engineering, formalizes existing behavior |
-| 10 | Group Launch | 24/35 | Session-start grouping, unexploitable |
-| 11 | Paid NPC Transport (Fade-to-Black) | 23/35 | Lore-friendly concept, economically balanced |
-| 12 | Teleport to Docked Ship | 22/35 | Simplest implementation, strong problem statement |
+| 4 | Remote Medical Imprint Transfer | 28/35 | Simplest implementation of high-scorers, auto-store gear, hangar spawning |
+| 7 | Transfer Transit | 27/35 | Built-in time limit, consequence mechanics |
+| 7 | Crew Quarters Registry | 27/35 | Highest feasibility, gives crew quarters purpose |
+| 9 | Rare Alien Structures | 25/35 | Physicalization purity, exploration content |
+| 9 | Formalized Medbed Clone-In | 25/35 | Zero new engineering, formalizes existing behavior |
+| 11 | Group Launch | 24/35 | Session-start grouping, unexploitable |
+| 12 | Paid NPC Transport (Fade-to-Black) | 23/35 | Lore-friendly concept, economically balanced |
+| 13 | Teleport to Docked Ship | 22/35 | Simplest implementation, strong problem statement |
 | — | Fix the Friction First | N/A | Data shows ~96% of time lost is bugs/friction, not travel |
 
 ---
