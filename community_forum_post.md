@@ -53,7 +53,9 @@ After analyzing all 11 community ideas, I had the AI synthesize a hybrid pulling
 
 **For instanced content:** Contractor Shells at mission entrances. Can't pick up loot, can't carry anything out, despawn on mission complete.
 
-**Anti-exploitation:** Expensive one-use consumables, Relay Beacon with capacity/range limits, degradation timer, combat lockout (can't transfer into a ship under fire), cooldown between transfers, real body vulnerability at terminal, Contractor Shell loot restrictions.
+**Anti-exploitation:** Expensive one-use consumables, Relay Beacon with capacity/range limits, degradation timer, combat lockout (can't transfer into a ship under fire), cooldown between transfers, gear auto-stores at departure terminal, Contractor Shell loot restrictions.
+
+**Death of a Spaceman Integration:** Every consciousness transfer causes **minor, cumulative DNA degradation** — the same biological wear DOAS is built around, but at a fraction of the rate of actual death. Use it once a week for org events? Negligible. Spam it fifteen times? Your character's lifespan accelerates toward final death. The tuning dial is the degradation curve (exponential recommended: casual use nearly free, heavy abuse increasingly punishing). **This turns DOAS and fast travel from competing design goals into the same system.** Controlled imprint transfer = low degradation. Emergency trauma cloning from death = high degradation. Both draw from the same pool. CIG fulfills the DOAS promise to backers while enabling fast travel — not in spite of it, but through it.
 
 **Upgrade path:** When NPC crew arrives, Shells evolve into Agent Smithing. The inert clone becomes a living NPC you take over. Same mechanic, better body. CIG doesn't build two systems.
 

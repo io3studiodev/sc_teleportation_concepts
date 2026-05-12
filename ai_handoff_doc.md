@@ -113,6 +113,9 @@ Each scored 1-5 across: Physicalization, Persistence, Lore Compatibility, Effect
 
 **Anti-duplication guarantee:** Consciousness crosses the transfer boundary. Matter never does. In either direction. Item duplication is structurally impossible.
 
+**Death of a Spaceman Integration — DNA Degradation as Fast Travel Throttle:**
+Every consciousness transfer causes minor, cumulative DNA degradation — the same biological wear that DOAS tracks, but at a fraction of the rate of actual death. Casual use (1-2 transfers/week) is negligible. Heavy abuse (15+ transfers/week) accelerates character lifespan toward final death and character succession. Tuning dial: degradation curve (recommend exponential — casual use nearly free, abuse increasingly punishing). This unifies DOAS and fast travel into a single biological cost mechanic rather than competing systems. Controlled imprint transfer = low degradation. Emergency trauma cloning from combat death = high degradation. Both draw from the same pool. CIG can fulfill the DOAS promise while enabling fast travel through the same underlying system.
+
 **Upgrade path:** When NPC crew ships, Shells evolve into Agent Smithing. The inert clone in the bed becomes a living NPC crew member. Player takes over the NPC instead of a blank Shell. Same mechanic, same Relay Beacon, same transfer UI. Only the body changes from inert to active.
 
 ### COMMUNITY COUNTERARGUMENTS TO CONSIDER
@@ -134,7 +137,8 @@ Given the above context, constraints, community proposals, and synthesized hybri
 3. Identify technical dependencies, risks, and engineering cost estimates for each phase.
 4. Propose tuning values for: Shell cost, Relay Beacon tiers/capacity/range, degradation timer length, transfer cooldown, Contractor Shell restrictions.
 5. Draft the in-universe lore entry that introduces Imprint Shell technology (grounded in existing FTL comms and cloning lore).
-6. Identify any edge cases or exploit vectors not already addressed in the anti-exploitation design.
+6. Design the DNA degradation curve for consciousness transfers: model casual use (1-2/week), moderate use (5-7/week), and heavy abuse (15+/week) against character lifespan. Recommend exponential vs linear vs stepped curves. Show how this integrates with the existing DOAS death degradation so both systems draw from the same biological wear pool.
+7. Identify any edge cases or exploit vectors not already addressed in the anti-exploitation design.
 
 ---
 

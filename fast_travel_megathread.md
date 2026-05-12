@@ -787,6 +787,38 @@ Every element of this system is grounded in existing Star Citizen lore:
 
 **Upgrade path to Agent Smithing:** When CIG eventually implements NPC crew, the Imprint Shell system evolves naturally. Instead of buying a blank organic clone and placing it in a bed, the ship has actual NPC crew members who walk around, perform tasks, and fill functional roles. A player transferring in takes over that NPC's body — full Agent Smithing. The Shell system becomes the stepping stone: ship it now with inert clone bodies, upgrade later to living NPCs. The underlying mechanic (consciousness transfer via Relay Beacon) stays the same. The only thing that changes is whether the body you're taking over was inert or active.
 
+### Death of a Spaceman Integration — DNA Degradation as a Natural Fast Travel Throttle
+
+This may be the most important section of this entire document. Death of a Spaceman (DOAS) has been a stated design pillar since the game's inception, but CIG has avoided detailing its implementation for years. Every consciousness transfer / medbed-based proposal in this megathread runs into the same unresolved tension: does transferring your consciousness cost a clone life? If yes, fast travel becomes punishing and players won't use it. If no, you've created a free teleportation system that bypasses the death system entirely. This tension has been flagged in multiple community counterarguments and is the single biggest design question CIG needs to answer.
+
+**The proposed solution: consciousness transfer causes cumulative DNA degradation.**
+
+Rather than treating each transfer as a binary "you died" event that costs a full clone life, consciousness transfer should cause **minor, cumulative DNA degradation** — the same biological wear that DOAS is built around, but at a fraction of the rate of actual death. The lore justification is straightforward: every time your consciousness is copied, transmitted via FTL, and imprinted into a new body (whether a Shell, a medbed clone, or eventually an NPC via Agent Smithing), the process introduces microscopic errors into your genetic template. One transfer is negligible. Dozens over weeks start to accumulate. Hundreds over months begin to meaningfully age your character toward their eventual final death and character succession.
+
+**How this solves the tension:**
+
+- **Casual use is virtually free.** Transfer into a Shell once or twice a week for org events? The degradation is so minor it's barely measurable. You could play for years without noticing. This keeps fast travel accessible for the exact use case CIG is trying to solve — getting groups together for sessions.
+- **Heavy abuse is self-punishing.** Spam consciousness transfers fifteen times in a week, hopping across the universe to exploit every opportunity? Your character's DNA degrades noticeably. Keep it up and you're burning through your character's lifespan at an accelerated rate, bringing final death and character succession (with its death taxes, asset transfer fees, reputation loss, and skill degradation) closer with every transfer.
+- **The tuning dial is the degradation curve.** Linear degradation means every transfer costs the same. Exponential degradation means the first few transfers per week are nearly free, but each additional one costs progressively more. CIG can tune this without changing any underlying mechanics — just adjusting the curve. An exponential curve is recommended: it's invisible to casual players and increasingly punishing to abusers.
+
+**Why this matters beyond fast travel:**
+
+This gives CIG a concrete, testable implementation framework for DOAS that integrates naturally with multiple systems. DNA degradation isn't just a fast-travel throttle — it's a **unified biological cost mechanic** that can apply to:
+
+- Consciousness transfers (Imprint Shells, Agent Smithing)
+- Medbed respawns (the existing death system)
+- Any future system that involves cloning, copying, or transmitting a player's biological data
+
+Instead of DOAS being a separate, siloed system that punishes death in isolation, it becomes a **biological wear meter** that tracks the cumulative cost of every time your body or consciousness is copied. Death costs more degradation than a consciousness transfer, but they draw from the same pool. This means:
+
+- Fast travel and death exist on the same spectrum rather than being separate systems with separate rules.
+- Players intuitively understand the cost: "every copy degrades the original, whether I'm transferring or dying."
+- CIG fulfills the DOAS promise made to backers over a decade ago in a way that's mechanically integrated with the fast travel system rather than in conflict with it.
+
+**The key insight:** CIG has been treating DOAS and fast travel as competing design goals. They're not. DNA degradation makes them *the same system.* Fast travel becomes the low-cost, low-degradation version of the same biological process that death uses at a high cost. Both are consciousness transfer — one is controlled and deliberate (low degradation), the other is traumatic and emergency (high degradation). The fiction supports this naturally: a careful, planned imprint transfer at a medical terminal would logically cause less genetic damage than emergency trauma cloning at a medbed after being shot.
+
+**This turns a design conflict into a design synergy.** CIG doesn't have to choose between "fast travel that undermines DOAS" and "DOAS that prevents fast travel." They get both, on the same spectrum, tuned by one curve.
+
 ### Scoring Breakdown
 
 | Axis | Score | Reasoning |
